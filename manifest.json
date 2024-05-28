@@ -2,8 +2,8 @@
     "theme_color": "#35a9f6",
     "background_color": "#ffffff",
     "display": "fullscreen",
-    "scope": "/fictional-octo-waddle/",
-    "start_url": "/fictional-octo-waddle/",
+    "scope": "/fictional-octo-waddle/index.html",
+    "start_url": "/fictional-octo-waddle/index.html",
     "name": "pwa-video",
     "short_name": "pwaVideo",
     "icons": [
