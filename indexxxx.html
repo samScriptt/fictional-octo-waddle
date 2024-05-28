@@ -14,10 +14,20 @@
 </head>
 <body>
     
-    <h1>it works.</h1>
+    <div id="container">
+        <div id="square"></div>
+    </div>
+    <button id="moveButton">Mover</button>
 
-    <!-- load service worker -->
-    <script src="app.js"></script>
-    <!-- /load service worker -->
+    <script>
+        const square = document.getElementById('square');
+        const button = document.getElementById('moveButton');
+
+        button.addEventListener('click', () => {
+            const currentLeft = parseInt(window.getComputedStyle(square).left, 10);
+            square.style.left = `${currentLeft + 50}px`;
+        });
+    </script>
+
 </body>
 </html>
